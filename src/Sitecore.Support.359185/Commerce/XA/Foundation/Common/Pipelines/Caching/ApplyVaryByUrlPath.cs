@@ -37,7 +37,7 @@
                 {
                     str += (string)obj2;
                 }
-                args.CacheKey = str;
+                args.CacheKey += str;
             }
         }
     }
